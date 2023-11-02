@@ -23,8 +23,10 @@ const Information = (props) => {
             <div className="p-2 flex gap-10">
               <div>
                 <div>
-                  <div className="text-lg text-black">
-                    {place["place name"]}
+                  <div className="text-lg  border rounded-md border-gray-500 text-black ">
+                    <h3 className=" text-center text-lg">
+                      {place["place name"]}
+                    </h3>
                   </div>
                   <h3 className="text-neutral-900">State: {place.state}</h3>
                 </div>
