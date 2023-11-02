@@ -61,7 +61,7 @@ const Home = () => {
             labelName="Postal Code"
             type="number"
             value={postal}
-            btnName="serach"
+            btnName="Search"
             placeholder="Enter postal code here.."
             handleChange={handleChange}
           />
