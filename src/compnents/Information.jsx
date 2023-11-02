@@ -17,10 +17,10 @@ const Information = (props) => {
       <div className=" flex justify-center items-center flex-col">
         {data.places.map((place, index) => (
           <div
-            className=" flex flex-wrap flex-col items-start p-3 w-[350px] h-auto border mt-2 border-gray-900 rounded-md shadow-lg"
+            className=" flex flex-wrap flex-col items-start p-3 w-[350px] h-auto border mt-2  bg-[#F8CBA6] border-gray-900 rounded-md shadow-lg"
             key={index}
           >
-            <div className=" flex gap-10">
+            <div className="p-2 flex gap-10">
               <div>
                 <div>
                   <div className="text-lg text-black">

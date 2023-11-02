@@ -3,7 +3,7 @@ import React from "react";
 const FormFields = ({
   type,
   placeholder,
-  name,
+  btnName,
   handleChange,
   labelName,
   value,
@@ -23,12 +23,18 @@ const FormFields = ({
           placeholder={placeholder}
           onChange={handleChange}
           value={value}
-          // required
+          required
           className="bg-gray-50 border
           border-gray-300 text-gray-900 text-sm rounded-lg
            focus:ring-[#6469ff] focus:border-[#6469ff] outline-none 
            block w-full p-3"
         />
+        <button
+          type={type}
+          className=" text-white bg-[#6469ff] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+        >
+          {btnName}
+        </button>
       </div>
     </div>
   );
