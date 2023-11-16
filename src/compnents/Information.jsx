@@ -35,7 +35,7 @@ const Information = (props) => {
                     Longitude: {place.longitude}°
                   </p>
                   <p className="text-gray-700 text-sm">
-                    Longitude: {place.latitude}°
+                    Latitude: {place.latitude}°
                   </p>
                 </div>
               </div>
